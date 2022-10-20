@@ -1,11 +1,8 @@
-const binaryArrayToNumber = (arr) => {
-  return arr
+const binaryArrayToNumber = (arr) =>
+  arr
     .reverse()
-    .map((num, index) => {
-      return num * 2 ** index;
-    })
+    .map((num, index) => num * 2 ** index)
     .reduce((a, b) => a + b);
-};
 
 // Bro, who the f knows about radix from parseInt()?
 // Tried to do a solution with just reduce(), however not smart enough :(

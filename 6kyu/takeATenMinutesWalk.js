@@ -23,13 +23,15 @@ function isValidWalk(walk) {
       case "e":
         coords.x--;
         break;
+      default:
+        break;
     }
   });
 
   // final validation. If the coordinates are 0,0, then the walk is valid
   if (!coords.y && !coords.x) {
     return true;
-  } else {
-    return false;
   }
+
+  return false;
 }

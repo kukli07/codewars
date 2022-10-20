@@ -11,7 +11,6 @@ function XO(str) {
 
   if (xCount === oCount) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
