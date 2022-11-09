@@ -1,16 +1,15 @@
 function XO(str) {
-  let xCount = 0;
-  let oCount = 0;
+    let xCount = 0;
+    let oCount = 0;
 
-  str
-    .toLowerCase()
-    .split("")
-    .forEach((char) => {
-      char === "o" ? oCount++ : char === "x" ? xCount++ : null;
-    });
+    str.toLowerCase()
+        .split("")
+        .forEach((char) => {
+            char === "o" ? oCount++ : char === "x" ? xCount++ : null;
+        });
 
-  if (xCount === oCount) {
-    return true;
-  }
-  return false;
+    if (xCount === oCount) {
+        return true;
+    }
+    return false;
 }

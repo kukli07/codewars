@@ -1,6 +1,6 @@
 function reverseWords(str) {
-  const words = str.split(" ");
-  return words.map((word) => word.split("").reverse().join("")).join(" ");
+    const words = str.split(" ");
+    return words.map((word) => word.split("").reverse().join("")).join(" ");
 }
 
 // Get an array containing each word

@@ -1,11 +1,11 @@
 function persistence(num, counter = 0) {
-  const chars = String(num).split("");
-  if (chars.length === 1) {
-    return counter;
-  }
-  const newNum = chars.reduce((prev, curr) => prev * curr);
+    const chars = String(num).split("");
+    if (chars.length === 1) {
+        return counter;
+    }
+    const newNum = chars.reduce((prev, curr) => prev * curr);
 
-  return persistence(newNum, counter + 1);
+    return persistence(newNum, counter + 1);
 }
 
 // TIL: How to keep track of the number of times a function is called using recursion

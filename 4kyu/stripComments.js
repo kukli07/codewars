@@ -1,15 +1,15 @@
 function solution(input, markers) {
-  const inputSplit = input.split("\n");
+    const inputSplit = input.split("\n");
 
-  inputSplit.forEach((subString, index) => {
-    markers.forEach((marker) => {
-      if (subString.includes(marker)) {
-        inputSplit[index] = subString.split(marker)[0].trim();
-      }
+    inputSplit.forEach((subString, index) => {
+        markers.forEach((marker) => {
+            if (subString.includes(marker)) {
+                inputSplit[index] = subString.split(marker)[0].trim();
+            }
+        });
     });
-  });
-  const result = inputSplit.join("\n");
-  return result;
+    const result = inputSplit.join("\n");
+    return result;
 }
 // Split the string into an array of substring for each line
 // Loop through the array of substring
