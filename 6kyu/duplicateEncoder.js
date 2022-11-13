@@ -5,6 +5,5 @@ function duplicateEncode(word) {
         .map((char, i, w) =>
             w.filter((c) => c === char).length > 1 ? ")" : "("
         )
-
         .join("");
 }
