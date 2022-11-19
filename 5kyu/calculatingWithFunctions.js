@@ -41,3 +41,6 @@ function times(numCb) {
 function dividedBy(numCb) {
     return `/${numCb}`;
 }
+
+// So hacky. Why did I not get the idea to return another function inside
+// the operator? :( The top solution is so clean!
