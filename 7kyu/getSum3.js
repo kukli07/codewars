@@ -22,3 +22,5 @@ function getSum(a, b) {
 // getSum(10,2) // returns 10+9+8+7+6+5+4+3+2 = 54
 // getSum(2,-3) // returns 2+1+0+-1+-2+-3 = -3
 // getSum(1, 3) // returns 1+2+3 = 6
+
+// Note: Lol Math.max() and Math.min() would have been easier. I'm a dumb dumb.
