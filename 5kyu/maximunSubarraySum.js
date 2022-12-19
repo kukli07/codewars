@@ -64,4 +64,18 @@ function maxSequence2(arr) {
     return result;
 }
 
-maxSequence2([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // 6
+// maxSequence2([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // 6
+
+// A really clever solution with a single loop, that is easy to understand:
+
+function maxSequence3(arr) {
+    let maxSum = 0;
+    let currentSum = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        currentSum = Math.max(0, currentSum + arr[i]);
+        maxSum = Math.max(maxSum, currentSum);
+    }
+
+    return maxSum;
+}
