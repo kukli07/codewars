@@ -14,6 +14,8 @@ function naiveSearch(str1, str2) {
             // Check if both characters are equal
             if (char1 === char2) {
                 check++;
+            } else {
+                break;
             }
             // If all the characters of str2 have been matched, increase the result by 1
             if (check === str2.length) {
