@@ -2,7 +2,6 @@ function findUniq(arr) {
     // initalize map
     const map = {};
 
-    const result = 0;
     // loop over array
     for (let i = 0; i < arr.length; i++) {
         if (map[arr[i]]) {
