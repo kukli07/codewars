@@ -2,7 +2,7 @@
 visit my profile here : [Codewars Profile](https://www.codewars.com/users/kukli07)
 
 ![634816d46fc4a32b2a583416_codewars-og-image](https://user-images.githubusercontent.com/84287747/201618952-66dee9bc-34da-4a43-9690-91b0f2ca62af.png)
-A repository filled with codewars challenges (kata). Currently Ranked #125,976 on the global leaderboard, Completed over 40 challenges and push 5 solutions every week.
+A repository filled with codewars challenges (kata). Currently Ranked #32,894 on the global leaderboard, Completed over 170 challenges and push 7 solutions every week.
 
 ## How It's Made:
 
