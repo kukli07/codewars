@@ -1,3 +1,3 @@
-const cubeChecker = function (volume, side) {
-    return volume <= 0 || side <= 0 ? false : volume === side ** 3;
-};
+const toBinary = (n) => Number(n.toString(2));
+
+// Remember, Number.toString() exists, lol.
