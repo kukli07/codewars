@@ -43,3 +43,15 @@ function queueTime(customers, n) {
 
 // My solution is actually the same speed as the top solution, so I guess
 // it is alright. Just a lot more lines of code
+
+/* I just thought of a way that my solution is way better than the top solution:
+For any point in time t, you can evaluate the status of all components
+-- you can see the status of the customers queue
+-- you can see the status of any given till
+-> This allows you to create a good visualization of the whole process over time t
+
+The top solution does not allow that, because it does not capture the aspect of
+a queue, as it is solely a "math-based" solution that calculates the time. My solution
+conceptualizes the whole process and allows for easy understanding.
+(t increases by 1 for each iteration of the while loop)
+*/
