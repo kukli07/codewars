@@ -9,6 +9,6 @@ function stray(numbers) {
     }
 }
 
-// Step 1 Could be done in the for loop as well, but these methods go
+// Step 1 Could be done in the for loop as well, but index methods go
 // over the whole array each time, so we would get O(n^2). This solution is
 // O(n)
