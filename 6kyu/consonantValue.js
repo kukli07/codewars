@@ -1,5 +1,4 @@
 function solve(s) {
-    // Array for vowels
     const vowels = ["a", "e", "o", "i", "u"];
     let max = 0;
     const substrings = s.split(/[aeoiu]/);
