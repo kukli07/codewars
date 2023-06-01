@@ -21,3 +21,22 @@ public class ReverseNumber {
   }
 
 }
+
+/*
+ * Optimization:
+ * - You can just reverse a StringBuilder with the .reverse() method. No need to
+ * turn
+ * the number into an array first.
+ * 
+ * public static int reverse(int number) {
+ * boolean isNegative = number < 0;
+ * String numberStr = Integer.toString(Math.abs(number));
+ * 
+ * String reversedStr = new StringBuilder(numberStr).reverse().toString();
+ * 
+ * int reversed = Integer.parseInt(reversedStr);
+ * return isNegative ? -reversed : reversed;
+ * }
+ * 
+ * 
+ */
