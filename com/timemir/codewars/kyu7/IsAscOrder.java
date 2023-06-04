@@ -20,3 +20,6 @@ public class IsAscOrder {
     System.out.println(solve(arr));
   }
 }
+
+// Simple for loop would have done the same, 
+// but this is more interesting to learn about streams, etc.
