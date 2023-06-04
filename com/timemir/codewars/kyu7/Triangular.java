@@ -21,3 +21,7 @@ public class Triangular {
     System.out.println(test);
   }
 }
+
+// Of course there was a smart mathy solution to this,
+// but I am not smart enough to come up with it by myself. :)
+// return (n <= 0) ? 0 : n * (n + 1) / 2;
